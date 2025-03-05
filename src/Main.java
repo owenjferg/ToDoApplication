@@ -23,10 +23,12 @@ public class Main {
      * @param args The command-line arguments.
      */
     public static void main(String[] args) {
+
         users.add(new User("test", "test"));
         while (isRunning) {
             showMenu();
         }
+
     }
 
     /**
